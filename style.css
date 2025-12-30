@@ -1,0 +1,78 @@
+body{
+    margin: 0.3rem 0 0 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+html{
+    font-family: sans-serif;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+}
+.card input{
+    padding: 0.3rem 1rem;
+    border-radius: 0.5rem ;
+    border: 1px solid;
+    outline: none;
+    width: 13rem;
+    font-size: 1.3em;
+}
+.card input:focus{
+    outline: 1.4px solid;
+}
+.card input::placeholder{
+    text-align: center;
+    font-size: 0.9em;
+}
+button[type = "submit"]{
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0 0.5rem;
+    cursor: pointer;
+}
+.myDisplayer{
+    background: linear-gradient(180deg,rgb(0, 0, 203),rgb(209, 209, 34));
+    min-width: 300px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 0.5rem 0.3rem;
+}
+.cityDisplay{
+    margin-bottom: 1.8rem;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+.tempDisplay{
+    font-size: 2.2em;
+    margin-top: 0;
+    font-weight: bold;
+}
+.humidDisplay{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 0;
+}
+.descDisplay{
+    font-size: 1.6em;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 0.6rem;
+}
+.weatherDisplay{
+    font-size: 4em;
+    margin-top: 0.4rem;
+    margin-bottom: 0;
+}
+.errorDisplay{
+    font-size: 1.4em;
+}
