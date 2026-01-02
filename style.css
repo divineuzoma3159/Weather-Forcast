@@ -46,6 +46,7 @@ button[type = "submit"]{
     align-items: center;
     color: white;
     padding: 0.5rem 0.3rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 .cityDisplay{
     margin-bottom: 1.8rem;
@@ -75,4 +76,5 @@ button[type = "submit"]{
 }
 .errorDisplay{
     font-size: 1.4em;
+
 }
