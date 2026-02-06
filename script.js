@@ -91,4 +91,5 @@ function errorDisplay(message){
     myDisplayer.textContent = "";
     myDisplayer.style.display = "flex";
     myDisplayer.appendChild(p);
+
 }
